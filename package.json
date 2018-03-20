@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/letsjavascript/fullStackIn40/issues"
   },
-  "homepage": "https://github.com/letsjavascript/fullStackIn40#readme"
+  "homepage": "https://github.com/letsjavascript/fullStackIn40#readme",
+  "dependencies": {
+    "nodemon": "^1.17.2"
+  }
 }
