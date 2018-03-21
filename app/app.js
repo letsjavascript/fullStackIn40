@@ -1,15 +1,17 @@
 const Express = require('express');
 const app = Express();
 const bodyParser = require('body-parser');
+const path = require('path');
 const config = require('../config/config.js');
 
 app.use(bodyParser.urlencoded({extended: true}));
+
 
 //set up routes
 
 //home
 app.get('/', (req,res) => {
-	res.send('Yee-Haw, basic server')
+	res.sendFile(path.join(__dirname + '/../views/home.html'));
 });
 
 //add user data

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/letsjavascript/fullStackIn40#readme",
   "dependencies": {
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "vuejs": "^3.0.1"
   }
 }
